@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+#    container: docker.io/centos:7
+    strategy:
+      max-parallel: 4
+      matrix:
+        python-version: [3.7]
+#        java-version: [ 8, 11, 15 ]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+#    - name: Set up Java ${{ matrix.java-version }}
+#        uses: actions/setup-java@v1
+#        with:
+#          java-version: ${{ matrix.java-version }}
+    - name: Install Chrome
+      run: |
+        sudo apt-get install libxss1 libappindicator1 libindicator7
+        wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        sudo dpkg -i google-chrome*.deb
+        sudo apt-get install -f
+        google-chrome --version
+
+        sudo apt-get install xvfb unzip
+        wget http://npm.taobao.org/mirrors/chromedriver/95.0.4638.17/chromedriver_linux64.zip
+        unzip chromedriver_linux64.zip
+        sudo chmod +x chromedriver
+        sudo mv -f chromedriver /usr/bin/
+        chmod -R 777 /usr/bin/chromedriver
+        chromedriver --version
+
+    - name: Install Dependencies
+      run: |
+        curl -o allure-2.10.0.tgz -Ls https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/allure-commandline-2.10.0.tgz
+        sudo tar -zxvf allure-2.10.0.tgz -C /opt/
+        sudo ln -s /opt/allure-2.10.0/bin/allure /usr/bin/allure
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run Tests
+      run: |
+        python run.py
