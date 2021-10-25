@@ -14,7 +14,7 @@ class TestLogout(BaseUtil):
     @allure.story("注销登录")
     def test_logout(self):
         """
-        注销登录(登录->注销)
+        注销登录(登录已存在的用户->注销)
         :return:
         """
         lgp = LogoutPage(self.driver)

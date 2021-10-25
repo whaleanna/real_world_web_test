@@ -53,7 +53,8 @@ class TestLogin(BaseUtil):
     @allure.story("登录异常")
     def test_login_error(self, case_info):
         """
-        登录异常
+        登录异常，
+        eg:数据的驱动有很多种，布置是yml,开业可以用py函数构造，也可以用csv构造
         :return:
         """
         email = case_info["data"]["email"]

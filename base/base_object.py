@@ -89,6 +89,10 @@ class BasePage(AllureMethod):
         return image_path
 
     def save_image(self):
+        """
+        保存图片到allure报告：后续可以遇到失败截图
+        :return:
+        """
         file_path = self.save_screenshot()
         with open(file_path, 'rb') as f:
             file = f.read()
