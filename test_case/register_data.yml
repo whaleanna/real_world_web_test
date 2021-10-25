@@ -1,0 +1,40 @@
+-
+  name: 用户名已注册
+  data:
+    username: leslie111
+    email: xxx@163.com
+    password: "123"
+  validate: username has already been taken
+
+-
+  name: 邮箱已被注册
+  data:
+    username: sdsdsdsss
+    email: leslie111@163.com
+    password: "123"
+  validate: email has already been taken
+
+-
+  name: 用户名为空
+  data:
+    username: " "
+    email: leslie222@163.com
+    password: "123"
+  validate: username can't be blank
+
+-
+  name: 邮箱为空
+  data:
+    username: xxxx
+    email: " "
+    password: "123"
+  validate: email can't be blank
+
+-
+  name: 密码为空
+  data:
+    username: xxxx
+    email: leslie111@163.com
+    password: " "
+  validate: password can't be blank
+

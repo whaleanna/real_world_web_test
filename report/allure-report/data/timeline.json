@@ -1,0 +1,160 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-26V1U3BL",
+    "children" : [ {
+      "name" : "38632-MainThread",
+      "children" : [ {
+        "name" : "test_login_error[case_info1]",
+        "uid" : "d3b780d288542d12",
+        "parentUid" : "e8fca2bfc322587dfe25c6b54000d60c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176591596,
+          "stop" : 1635176593733,
+          "duration" : 2137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '密码为空', 'data': {'email': 'shjeushhwshaid@163.com', 'password': ' '}, 'validate': \"password can't be blank\"}" ]
+      }, {
+        "name" : "test_register_error[case_info2]",
+        "uid" : "1180286dadaa887d",
+        "parentUid" : "e8fca2bfc322587dfe25c6b54000d60c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176630920,
+          "stop" : 1635176635207,
+          "duration" : 4287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '用户名为空', 'data': {'username': ' ', 'email': 'leslie222@163.com', 'password': '123'}, 'validate': \"username can't be blank\"}" ]
+      }, {
+        "name" : "test_register_error[case_info1]",
+        "uid" : "ee29e159908ea0bb",
+        "parentUid" : "e8fca2bfc322587dfe25c6b54000d60c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176620998,
+          "stop" : 1635176623249,
+          "duration" : 2251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '邮箱已被注册', 'data': {'username': 'sdsdsdsss', 'email': 'leslie111@163.com', 'password': '123'}, 'validate': 'email has already been taken'}" ]
+      }, {
+        "name" : "test_register_error[case_info4]",
+        "uid" : "1a000f9e87bdb988",
+        "parentUid" : "e8fca2bfc322587dfe25c6b54000d60c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176645773,
+          "stop" : 1635176649752,
+          "duration" : 3979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '密码为空', 'data': {'username': 'xxxx', 'email': 'leslie111@163.com', 'password': ' '}, 'validate': \"password can't be blank\"}" ]
+      }, {
+        "name" : "test_register",
+        "uid" : "53efb8236d17eb97",
+        "parentUid" : "e8fca2bfc322587dfe25c6b54000d60c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176604793,
+          "stop" : 1635176609078,
+          "duration" : 4285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_invalid_user",
+        "uid" : "508f0aa91b6a9c61",
+        "parentUid" : "e8fca2bfc322587dfe25c6b54000d60c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176574869,
+          "stop" : 1635176579111,
+          "duration" : 4242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e8fca2bfc322587dfe25c6b54000d60c"
+    }, {
+      "name" : "9204-MainThread",
+      "children" : [ {
+        "name" : "test_register_error[case_info0]",
+        "uid" : "e56c834d571b9b47",
+        "parentUid" : "ba0538648d99eaf879c70a22bec1382f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176621752,
+          "stop" : 1635176624525,
+          "duration" : 2773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '用户名已注册', 'data': {'username': 'leslie111', 'email': 'xxx@163.com', 'password': '123'}, 'validate': 'username has already been taken'}" ]
+      }, {
+        "name" : "test_login_error[case_info0]",
+        "uid" : "e499427928e240c",
+        "parentUid" : "ba0538648d99eaf879c70a22bec1382f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176589649,
+          "stop" : 1635176592169,
+          "duration" : 2520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '账号为空', 'data': {'email': ' ', 'password': '123'}, 'validate': \"email can't be blank\"}" ]
+      }, {
+        "name" : "test_login",
+        "uid" : "243c189d931d8d05",
+        "parentUid" : "ba0538648d99eaf879c70a22bec1382f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176575788,
+          "stop" : 1635176578033,
+          "duration" : 2245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_register_error[case_info3]",
+        "uid" : "1610324382b47d15",
+        "parentUid" : "ba0538648d99eaf879c70a22bec1382f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176633316,
+          "stop" : 1635176635572,
+          "duration" : 2256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '邮箱为空', 'data': {'username': 'xxxx', 'email': ' ', 'password': '123'}, 'validate': \"email can't be blank\"}" ]
+      }, {
+        "name" : "test_logout",
+        "uid" : "20f580b1d8fd185",
+        "parentUid" : "ba0538648d99eaf879c70a22bec1382f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635176604682,
+          "stop" : 1635176609397,
+          "duration" : 4715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba0538648d99eaf879c70a22bec1382f"
+    } ],
+    "uid" : "ff81a3b058ce7ed397395dc431fb018d"
+  } ]
+}

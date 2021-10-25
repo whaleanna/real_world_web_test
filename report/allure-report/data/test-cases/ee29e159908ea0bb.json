@@ -1,0 +1,153 @@
+{
+  "uid" : "ee29e159908ea0bb",
+  "name" : "test_register_error[case_info1]",
+  "fullName" : "test_case.test_register.TestRegister#test_register_error",
+  "historyId" : "60927827c158f3dd2cc5feb3018751ea",
+  "time" : {
+    "start" : 1635176620998,
+    "stop" : 1635176623249,
+    "duration" : 2251
+  },
+  "description" : "\n        登录异常\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    登录异常\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        登录异常\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "切换到注册页面",
+      "time" : {
+        "start" : 1635176620998,
+        "stop" : 1635176620998,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入用户名: sdsdsdsss",
+      "time" : {
+        "start" : 1635176621041,
+        "stop" : 1635176621041,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入邮箱: leslie111@163.com",
+      "time" : {
+        "start" : 1635176621107,
+        "stop" : 1635176621108,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入密码: 123",
+      "time" : {
+        "start" : 1635176621171,
+        "stop" : 1635176621171,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击注册按钮",
+      "time" : {
+        "start" : 1635176621219,
+        "stop" : 1635176621219,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "注册异常"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-26V1U3BL"
+  }, {
+    "name" : "thread",
+    "value" : "38632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_info",
+    "value" : "{'name': '邮箱已被注册', 'data': {'username': 'sdsdsdsss', 'email': 'leslie111@163.com', 'password': '123'}, 'validate': 'email has already been taken'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee29e159908ea0bb.json",
+  "parameterValues" : [ "{'name': '邮箱已被注册', 'data': {'username': 'sdsdsdsss', 'email': 'leslie111@163.com', 'password': '123'}, 'validate': 'email has already been taken'}" ]
+}

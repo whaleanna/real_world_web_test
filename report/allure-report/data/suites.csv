@@ -1,0 +1,45 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 25 23:43:11 GMT+08:00 2021","Mon Oct 25 23:43:13 GMT+08:00 2021","2137","test_case","test_login","TestLogin","","","test_login_error[case_info1]","
+        登录异常
+        :return:
+        "
+"passed","Mon Oct 25 23:43:41 GMT+08:00 2021","Mon Oct 25 23:43:44 GMT+08:00 2021","2773","test_case","test_register","TestRegister","","","test_register_error[case_info0]","
+        登录异常
+        :return:
+        "
+"passed","Mon Oct 25 23:43:50 GMT+08:00 2021","Mon Oct 25 23:43:55 GMT+08:00 2021","4287","test_case","test_register","TestRegister","","","test_register_error[case_info2]","
+        登录异常
+        :return:
+        "
+"passed","Mon Oct 25 23:43:09 GMT+08:00 2021","Mon Oct 25 23:43:12 GMT+08:00 2021","2520","test_case","test_login","TestLogin","","","test_login_error[case_info0]","
+        登录异常
+        :return:
+        "
+"passed","Mon Oct 25 23:42:55 GMT+08:00 2021","Mon Oct 25 23:42:58 GMT+08:00 2021","2245","test_case","test_login","TestLogin","","","test_login","
+        登录已存在的用户
+        :return:
+        "
+"passed","Mon Oct 25 23:43:53 GMT+08:00 2021","Mon Oct 25 23:43:55 GMT+08:00 2021","2256","test_case","test_register","TestRegister","","","test_register_error[case_info3]","
+        登录异常
+        :return:
+        "
+"passed","Mon Oct 25 23:43:24 GMT+08:00 2021","Mon Oct 25 23:43:29 GMT+08:00 2021","4715","test_case","test_logout","TestLogout","","","test_logout","
+        注销登录(登录->注销)
+        :return:
+        "
+"passed","Mon Oct 25 23:43:40 GMT+08:00 2021","Mon Oct 25 23:43:43 GMT+08:00 2021","2251","test_case","test_register","TestRegister","","","test_register_error[case_info1]","
+        登录异常
+        :return:
+        "
+"passed","Mon Oct 25 23:44:05 GMT+08:00 2021","Mon Oct 25 23:44:09 GMT+08:00 2021","3979","test_case","test_register","TestRegister","","","test_register_error[case_info4]","
+        登录异常
+        :return:
+        "
+"passed","Mon Oct 25 23:43:24 GMT+08:00 2021","Mon Oct 25 23:43:29 GMT+08:00 2021","4285","test_case","test_register","TestRegister","","","test_register","
+        注册新用户
+        :return:
+        "
+"passed","Mon Oct 25 23:42:54 GMT+08:00 2021","Mon Oct 25 23:42:59 GMT+08:00 2021","4242","test_case","test_login","TestLogin","","","test_login_invalid_user","
+        登录无效用户
+        :return:
+        "

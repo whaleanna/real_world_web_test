@@ -1,0 +1,150 @@
+{
+  "uid" : "53efb8236d17eb97",
+  "name" : "test_register",
+  "fullName" : "test_case.test_register.TestRegister#test_register",
+  "historyId" : "9300c91cac7ee4a2e67f463a1a7ec52a",
+  "time" : {
+    "start" : 1635176604793,
+    "stop" : 1635176609078,
+    "duration" : 4285
+  },
+  "description" : "\n        注册新用户\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    注册新用户\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        注册新用户\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "切换到注册页面",
+      "time" : {
+        "start" : 1635176604793,
+        "stop" : 1635176604793,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入用户名: X2zCMT",
+      "time" : {
+        "start" : 1635176604867,
+        "stop" : 1635176604867,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入邮箱: 6bvxzS@qq.com",
+      "time" : {
+        "start" : 1635176604939,
+        "stop" : 1635176604939,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入密码: X2zCMT",
+      "time" : {
+        "start" : 1635176605001,
+        "stop" : 1635176605001,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击注册按钮",
+      "time" : {
+        "start" : 1635176605053,
+        "stop" : 1635176605053,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "story",
+    "value" : "成功注册"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-26V1U3BL"
+  }, {
+    "name" : "thread",
+    "value" : "38632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53efb8236d17eb97.json",
+  "parameterValues" : [ ]
+}
