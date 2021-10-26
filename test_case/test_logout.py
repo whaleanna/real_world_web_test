@@ -3,8 +3,6 @@
 # @Time    : 2021/10/24 13:53
 # @Author  : 邹金利
 from base.base_util import BaseUtil
-from selenium import webdriver
-
 from page_object.logout_page import LogoutPage
 import allure,pytest
 

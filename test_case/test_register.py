@@ -4,9 +4,7 @@
 # @Author  : 邹金利
 
 from base.base_util import BaseUtil
-from selenium import webdriver
 from common.yaml_util import YamlUtil
-from page_object.login_page import LoginPage
 import allure,pytest
 
 from page_object.register_page import RegisterPage
