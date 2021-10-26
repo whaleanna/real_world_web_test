@@ -1,47 +1,47 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Oct 26 11:58:35 GMT+08:00 2021","Tue Oct 26 11:58:38 GMT+08:00 2021","3543","test_case","test_register","TestRegister","","","test_register_error[case_info0]","
-        登录异常
-        :return:
-        "
-"passed","Tue Oct 26 11:58:23 GMT+08:00 2021","Tue Oct 26 11:58:28 GMT+08:00 2021","5239","test_case","test_logout","TestLogout","","","test_logout","
-        注销登录(登录已存在的用户->注销)
-        :return:
-        "
-"passed","Tue Oct 26 11:58:07 GMT+08:00 2021","Tue Oct 26 11:58:10 GMT+08:00 2021","2934","test_case","test_login","TestLogin","","","test_login_invalid_user","
-        登录无效用户
-        :return:
-        "
-"passed","Tue Oct 26 11:58:50 GMT+08:00 2021","Tue Oct 26 11:58:52 GMT+08:00 2021","2658","test_case","test_register","TestRegister","","","test_register","
-        注册新用户
-        :return:
-        "
-"passed","Tue Oct 26 11:58:14 GMT+08:00 2021","Tue Oct 26 11:58:16 GMT+08:00 2021","2594","test_case","test_login","TestLogin","","","test_login","
+"passed","Tue Oct 26 12:20:17 GMT+08:00 2021","Tue Oct 26 12:20:19 GMT+08:00 2021","2639","test_case","test_login","TestLogin","","","test_login","
         登录已存在的用户
         :return:
         "
-"passed","Tue Oct 26 11:58:10 GMT+08:00 2021","Tue Oct 26 11:58:12 GMT+08:00 2021","1824","test_case","test_login","TestLogin","","","test_login_error[case_info0]","
+"passed","Tue Oct 26 12:20:54 GMT+08:00 2021","Tue Oct 26 12:20:57 GMT+08:00 2021","3028","test_case","test_register","TestRegister","","","test_register_error[case_info4]","
+        登录异常
+        :return:
+        "
+"passed","Tue Oct 26 12:20:42 GMT+08:00 2021","Tue Oct 26 12:20:46 GMT+08:00 2021","4064","test_case","test_register","TestRegister","","","test_register_error[case_info0]","
+        登录异常
+        :return:
+        "
+"passed","Tue Oct 26 12:20:51 GMT+08:00 2021","Tue Oct 26 12:20:54 GMT+08:00 2021","2475","test_case","test_register","TestRegister","","","test_register_error[case_info3]","
+        登录异常
+        :return:
+        "
+"passed","Tue Oct 26 12:20:57 GMT+08:00 2021","Tue Oct 26 12:21:00 GMT+08:00 2021","2690","test_case","test_register","TestRegister","","","test_register","
+        注册新用户
+        :return:
+        "
+"passed","Tue Oct 26 12:20:13 GMT+08:00 2021","Tue Oct 26 12:20:15 GMT+08:00 2021","1890","test_case","test_login","TestLogin","","","test_login_error[case_info0]","
         登录异常，
         eg:数据的驱动有很多种，布置是yml,开业可以用py函数构造，也可以用csv构造
         :return:
         "
-"passed","Tue Oct 26 11:58:47 GMT+08:00 2021","Tue Oct 26 11:58:50 GMT+08:00 2021","2986","test_case","test_register","TestRegister","","","test_register_error[case_info4]","
-        登录异常
-        :return:
-        "
-"passed","Tue Oct 26 11:58:44 GMT+08:00 2021","Tue Oct 26 11:58:47 GMT+08:00 2021","2478","test_case","test_register","TestRegister","","","test_register_error[case_info3]","
-        登录异常
-        :return:
-        "
-"passed","Tue Oct 26 11:58:41 GMT+08:00 2021","Tue Oct 26 11:58:44 GMT+08:00 2021","3033","test_case","test_register","TestRegister","","","test_register_error[case_info2]","
-        登录异常
-        :return:
-        "
-"passed","Tue Oct 26 11:58:12 GMT+08:00 2021","Tue Oct 26 11:58:14 GMT+08:00 2021","1853","test_case","test_login","TestLogin","","","test_login_error[case_info1]","
+"passed","Tue Oct 26 12:20:15 GMT+08:00 2021","Tue Oct 26 12:20:17 GMT+08:00 2021","1887","test_case","test_login","TestLogin","","","test_login_error[case_info1]","
         登录异常，
         eg:数据的驱动有很多种，布置是yml,开业可以用py函数构造，也可以用csv构造
         :return:
         "
-"passed","Tue Oct 26 11:58:38 GMT+08:00 2021","Tue Oct 26 11:58:41 GMT+08:00 2021","2538","test_case","test_register","TestRegister","","","test_register_error[case_info1]","
+"passed","Tue Oct 26 12:20:10 GMT+08:00 2021","Tue Oct 26 12:20:13 GMT+08:00 2021","2974","test_case","test_login","TestLogin","","","test_login_invalid_user","
+        登录无效用户
+        :return:
+        "
+"passed","Tue Oct 26 12:20:46 GMT+08:00 2021","Tue Oct 26 12:20:48 GMT+08:00 2021","2479","test_case","test_register","TestRegister","","","test_register_error[case_info1]","
+        登录异常
+        :return:
+        "
+"passed","Tue Oct 26 12:20:27 GMT+08:00 2021","Tue Oct 26 12:20:32 GMT+08:00 2021","5260","test_case","test_logout","TestLogout","","","test_logout","
+        注销登录(登录已存在的用户->注销)
+        :return:
+        "
+"passed","Tue Oct 26 12:20:48 GMT+08:00 2021","Tue Oct 26 12:20:51 GMT+08:00 2021","2964","test_case","test_register","TestRegister","","","test_register_error[case_info2]","
         登录异常
         :return:
         "

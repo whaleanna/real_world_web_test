@@ -7,13 +7,13 @@
       "name" : "登录无效用户",
       "children" : [ {
         "name" : "test_login_invalid_user",
-        "uid" : "c1388e9f3cf18b63",
+        "uid" : "99445871ab58bd56",
         "parentUid" : "7062fcb38d0d8f1bc6439041e8e83062",
         "status" : "passed",
         "time" : {
-          "start" : 1635220687586,
-          "stop" : 1635220690520,
-          "duration" : 2934
+          "start" : 1635222010211,
+          "stop" : 1635222013185,
+          "duration" : 2974
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,26 +24,26 @@
       "name" : "登录异常",
       "children" : [ {
         "name" : "test_login_error[case_info0]",
-        "uid" : "fdfb75b2770ba07d",
+        "uid" : "bf42564c1d64abca",
         "parentUid" : "7cf3a573eb4acca103dc1d80ef638984",
         "status" : "passed",
         "time" : {
-          "start" : 1635220690581,
-          "stop" : 1635220692405,
-          "duration" : 1824
+          "start" : 1635222013273,
+          "stop" : 1635222015163,
+          "duration" : 1890
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': '账号为空', 'data': {'email': ' ', 'password': '123'}, 'validate': \"email can't be blank\"}" ]
       }, {
         "name" : "test_login_error[case_info1]",
-        "uid" : "866abdf0d7b188aa",
+        "uid" : "5d5b2a03ade14162",
         "parentUid" : "7cf3a573eb4acca103dc1d80ef638984",
         "status" : "passed",
         "time" : {
-          "start" : 1635220692466,
-          "stop" : 1635220694319,
-          "duration" : 1853
+          "start" : 1635222015235,
+          "stop" : 1635222017122,
+          "duration" : 1887
         },
         "flaky" : false,
         "newFailed" : false,
@@ -54,13 +54,13 @@
       "name" : "登录已存在用户",
       "children" : [ {
         "name" : "test_login",
-        "uid" : "5cd9a4d681551fa9",
+        "uid" : "a14f18b4755cea20",
         "parentUid" : "13c1d3ded27e35308bdce8c1aac570b2",
         "status" : "passed",
         "time" : {
-          "start" : 1635220694368,
-          "stop" : 1635220696962,
-          "duration" : 2594
+          "start" : 1635222017177,
+          "stop" : 1635222019816,
+          "duration" : 2639
         },
         "flaky" : false,
         "newFailed" : false,
@@ -75,13 +75,13 @@
       "name" : "注销登录",
       "children" : [ {
         "name" : "test_logout",
-        "uid" : "569bec9105b8376f",
+        "uid" : "8b72daf5be788ce8",
         "parentUid" : "683057968987abdaac1f2b62e35c86b0",
         "status" : "passed",
         "time" : {
-          "start" : 1635220703434,
-          "stop" : 1635220708673,
-          "duration" : 5239
+          "start" : 1635222027728,
+          "stop" : 1635222032988,
+          "duration" : 5260
         },
         "flaky" : false,
         "newFailed" : false,
@@ -96,65 +96,65 @@
       "name" : "注册异常",
       "children" : [ {
         "name" : "test_register_error[case_info0]",
-        "uid" : "5313c85e013f51e",
+        "uid" : "25e9500d0ff939b8",
         "parentUid" : "8029461a796fcb1f35e52de92b406cae",
         "status" : "passed",
         "time" : {
-          "start" : 1635220715236,
-          "stop" : 1635220718779,
-          "duration" : 3543
+          "start" : 1635222042304,
+          "stop" : 1635222046368,
+          "duration" : 4064
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': '用户名已注册', 'data': {'username': 'leslie111', 'email': 'xxx@163.com', 'password': '123'}, 'validate': 'username has already been taken'}" ]
       }, {
         "name" : "test_register_error[case_info1]",
-        "uid" : "f27093d2011b6e7d",
+        "uid" : "d548a8541328325f",
         "parentUid" : "8029461a796fcb1f35e52de92b406cae",
         "status" : "passed",
         "time" : {
-          "start" : 1635220718855,
-          "stop" : 1635220721393,
-          "duration" : 2538
+          "start" : 1635222046429,
+          "stop" : 1635222048908,
+          "duration" : 2479
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': '邮箱已被注册', 'data': {'username': 'sdsdsdsss', 'email': 'leslie111@163.com', 'password': '123'}, 'validate': 'email has already been taken'}" ]
       }, {
         "name" : "test_register_error[case_info2]",
-        "uid" : "2505fa98a92c83e1",
+        "uid" : "8ca4dd0f8c439ca7",
         "parentUid" : "8029461a796fcb1f35e52de92b406cae",
         "status" : "passed",
         "time" : {
-          "start" : 1635220721447,
-          "stop" : 1635220724480,
-          "duration" : 3033
+          "start" : 1635222048960,
+          "stop" : 1635222051924,
+          "duration" : 2964
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': '用户名为空', 'data': {'username': ' ', 'email': 'leslie222@163.com', 'password': '123'}, 'validate': \"username can't be blank\"}" ]
       }, {
         "name" : "test_register_error[case_info3]",
-        "uid" : "156d956106c3a578",
+        "uid" : "e57982597b48634c",
         "parentUid" : "8029461a796fcb1f35e52de92b406cae",
         "status" : "passed",
         "time" : {
-          "start" : 1635220724549,
-          "stop" : 1635220727027,
-          "duration" : 2478
+          "start" : 1635222051990,
+          "stop" : 1635222054465,
+          "duration" : 2475
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'name': '邮箱为空', 'data': {'username': 'xxxx', 'email': ' ', 'password': '123'}, 'validate': \"email can't be blank\"}" ]
       }, {
         "name" : "test_register_error[case_info4]",
-        "uid" : "8908c5ae3405b3aa",
+        "uid" : "cbfa06892aeae3f2",
         "parentUid" : "8029461a796fcb1f35e52de92b406cae",
         "status" : "passed",
         "time" : {
-          "start" : 1635220727082,
-          "stop" : 1635220730068,
-          "duration" : 2986
+          "start" : 1635222054517,
+          "stop" : 1635222057545,
+          "duration" : 3028
         },
         "flaky" : false,
         "newFailed" : false,
@@ -165,13 +165,13 @@
       "name" : "成功注册",
       "children" : [ {
         "name" : "test_register",
-        "uid" : "8f368fb5a1f9dc9f",
+        "uid" : "358d3f94f67ffa53",
         "parentUid" : "1cd57c100454766ad5f96f2577298d69",
         "status" : "passed",
         "time" : {
-          "start" : 1635220730122,
-          "stop" : 1635220732780,
-          "duration" : 2658
+          "start" : 1635222057607,
+          "stop" : 1635222060297,
+          "duration" : 2690
         },
         "flaky" : false,
         "newFailed" : false,

@@ -12,7 +12,7 @@ from common.time_util import timestamp
 driver = None
 
 
-@pytest.fixture(scope='session', autouse=True)
+@pytest.fixture(scope='session', autouse=False)
 def drivers(request):
     global driver
     if driver is None:

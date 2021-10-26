@@ -18,7 +18,7 @@ class TestLogout(BaseUtil):
 
     @allure.story("注销登录")
     @pytest.mark.smoke
-    def test_logout(self, drivers):
+    def test_logout(self):
         """
         注销登录(登录已存在的用户->注销)
         :return:
