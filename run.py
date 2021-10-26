@@ -13,4 +13,3 @@ if __name__ == "__main__":
         pass
     pytest.main()
     os.system('allure generate ./report/result_json -o ./report/allure-report --clean')
-    os.system('allure open report/allure-report')
