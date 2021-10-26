@@ -1,110 +1,110 @@
 [ {
-  "uid" : "fd7128e6a0314cd1",
+  "uid" : "e418d716c2a4b927",
   "name" : "test_register_error[case_info4]",
   "time" : {
-    "start" : 1635218281180,
-    "stop" : 1635218283798,
-    "duration" : 2618
+    "start" : 1635219674268,
+    "stop" : 1635219677280,
+    "duration" : 3012
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "53c48e1c773f260c",
-  "name" : "test_logout",
-  "time" : {
-    "start" : 1635218274987,
-    "stop" : 1635218280196,
-    "duration" : 5209
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ef6527a3391b7c91",
-  "name" : "test_register_error[case_info0]",
-  "time" : {
-    "start" : 1635218275374,
-    "stop" : 1635218279082,
-    "duration" : 3708
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e09677f5e4e1b7d7",
-  "name" : "test_register",
-  "time" : {
-    "start" : 1635218281943,
-    "stop" : 1635218285372,
-    "duration" : 3429
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad8495a2d92a889c",
+  "uid" : "8db03afd6da6496d",
   "name" : "test_register_error[case_info1]",
   "time" : {
-    "start" : 1635218277165,
-    "stop" : 1635218281045,
-    "duration" : 3880
+    "start" : 1635219665350,
+    "stop" : 1635219668116,
+    "duration" : 2766
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "717c9ddeee2da25f",
-  "name" : "test_register_error[case_info2]",
-  "time" : {
-    "start" : 1635218287651,
-    "stop" : 1635218291151,
-    "duration" : 3500
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "76b0ea582c38ab8e",
-  "name" : "test_login_error[case_info0]",
-  "time" : {
-    "start" : 1635218264160,
-    "stop" : 1635218267085,
-    "duration" : 2925
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dcf049efde8c6a1a",
-  "name" : "test_login",
-  "time" : {
-    "start" : 1635218267493,
-    "stop" : 1635218269653,
-    "duration" : 2160
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "33de68fd0428795b",
-  "name" : "test_register_error[case_info3]",
-  "time" : {
-    "start" : 1635218279292,
-    "stop" : 1635218281807,
-    "duration" : 2515
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c1e134b5a48ea925",
-  "name" : "test_login_error[case_info1]",
-  "time" : {
-    "start" : 1635218264688,
-    "stop" : 1635218267758,
-    "duration" : 3070
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "64a80c9d841b302a",
+  "uid" : "a79f3ff9dc82daf4",
   "name" : "test_login_invalid_user",
   "time" : {
-    "start" : 1635218263930,
-    "stop" : 1635218267374,
-    "duration" : 3444
+    "start" : 1635219633851,
+    "stop" : 1635219636803,
+    "duration" : 2952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40d5d157f4c64d8e",
+  "name" : "test_register",
+  "time" : {
+    "start" : 1635219677335,
+    "stop" : 1635219679874,
+    "duration" : 2539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "198d5b9f09b2da1d",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1635219650146,
+    "stop" : 1635219655244,
+    "duration" : 5098
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76ffbb6b952c8d37",
+  "name" : "test_register_error[case_info3]",
+  "time" : {
+    "start" : 1635219671671,
+    "stop" : 1635219674212,
+    "duration" : 2541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b2570704a1cc67d",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1635219641083,
+    "stop" : 1635219643671,
+    "duration" : 2588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "537149f55b5ca3d3",
+  "name" : "test_login_error[case_info1]",
+  "time" : {
+    "start" : 1635219638734,
+    "stop" : 1635219640979,
+    "duration" : 2245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58936792328d6363",
+  "name" : "test_login_error[case_info0]",
+  "time" : {
+    "start" : 1635219636863,
+    "stop" : 1635219638680,
+    "duration" : 1817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d4308f3aead5815",
+  "name" : "test_register_error[case_info2]",
+  "time" : {
+    "start" : 1635219668439,
+    "stop" : 1635219671524,
+    "duration" : 3085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4769e2f5d427bf7a",
+  "name" : "test_register_error[case_info0]",
+  "time" : {
+    "start" : 1635219661792,
+    "stop" : 1635219665286,
+    "duration" : 3494
   },
   "status" : "passed",
   "severity" : "normal"

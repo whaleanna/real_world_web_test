@@ -18,11 +18,10 @@ class BasePage(AllureMethod):
         self.driver = driver
 
     def get_url(self):
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--headless')
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--disable-gpu')
-        chrome_options.add_argument('--disable-dev-shm-usage')
+        """
+        打开网页
+        :return:
+        """
         self.driver.maximize_window()
         self.driver.implicitly_wait(30)
         try:
