@@ -1,0 +1,213 @@
+{
+  "uid" : "717c9ddeee2da25f",
+  "name" : "test_register_error[case_info2]",
+  "fullName" : "test_case.test_register.TestRegister#test_register_error",
+  "historyId" : "14c3b17110331b3c08aeab5d9c3254c2",
+  "time" : {
+    "start" : 1635218287651,
+    "stop" : 1635218291151,
+    "duration" : 3500
+  },
+  "description" : "\n        登录异常\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    登录异常\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_web",
+    "time" : {
+      "start" : 1635218284282,
+      "stop" : 1635218287651,
+      "duration" : 3369
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1635218257831,
+      "stop" : 1635218257831,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1635218282615,
+      "stop" : 1635218284282,
+      "duration" : 1667
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        登录异常\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "切换到注册页面",
+      "time" : {
+        "start" : 1635218287652,
+        "stop" : 1635218287652,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入用户名:  ",
+      "time" : {
+        "start" : 1635218287717,
+        "stop" : 1635218287718,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入邮箱: leslie222@163.com",
+      "time" : {
+        "start" : 1635218288306,
+        "stop" : 1635218288306,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码: 123",
+      "time" : {
+        "start" : 1635218288919,
+        "stop" : 1635218288919,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击注册按钮",
+      "time" : {
+        "start" : 1635218289523,
+        "stop" : 1635218289523,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1635218291151,
+      "stop" : 1635218294485,
+      "duration" : 3334
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "story",
+    "value" : "注册异常"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-26V1U3BL"
+  }, {
+    "name" : "thread",
+    "value" : "18996-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_info",
+    "value" : "{'name': '用户名为空', 'data': {'username': ' ', 'email': 'leslie222@163.com', 'password': '123'}, 'validate': \"username can't be blank\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "717c9ddeee2da25f.json",
+  "parameterValues" : [ "{'name': '用户名为空', 'data': {'username': ' ', 'email': 'leslie222@163.com', 'password': '123'}, 'validate': \"username can't be blank\"}" ]
+}

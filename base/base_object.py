@@ -4,13 +4,33 @@
 # @Author  : 邹金利
 import allure,os
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
 from common.allure_step_util import AllureMethod
+from common.time_util import sleep
+from common.yaml_util import YamlUtil
+from common.log_util import log
 
 
 class BasePage(AllureMethod):
+    url = YamlUtil.read_get_data_yaml("/config/config.yml")["url"]
 
     def __init__(self, driver):
         self.driver = driver
+
+    def get_url(self):
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--disable-dev-shm-usage')
+        self.driver.maximize_window()
+        self.driver.implicitly_wait(30)
+        try:
+            # 加载网页
+            self.driver.get(self.url)
+            log.info("打开网页：%s" % self.url)
+        except TimeoutException:
+            raise TimeoutException("打开%s超时请检查网络或网址服务器" % self.url)
 
     def locator_element(self, locator):
         """
@@ -26,8 +46,12 @@ class BasePage(AllureMethod):
         :param locator:
         :return:
         """
+        log.info("输入文本：{}".format(value))
         self.save_data(case_name+": " + str(value))
-        return self.locator_element(locator).send_keys(value)
+        sleep(0.5)
+        element = self.locator_element(locator)
+        element.clear()
+        return element.send_keys(value)
 
     def click(self, locator, case_name=None):
         """
@@ -35,22 +59,16 @@ class BasePage(AllureMethod):
         :param locator:
         :return:
         """
+        log.info("点击元素：{}".format(locator))
         self.save_data(case_name)
         self.locator_element(locator).click()
-
-    def goto_frame(self, frame_name, case_name=None):
-        """
-        切换frame
-        :return:
-        """
-        self.save_data(case_name)
-        self.driver.switch_to.frame(frame_name)
 
     def switch_frame(self, frame_name, case_name=None):
         """
         切换frame
         :return:
         """
+        log.info("切换frame：{}".format(frame_name))
         self.save_data(case_name)
         self.driver.switch_to.frame(frame_name)
 
@@ -59,6 +77,7 @@ class BasePage(AllureMethod):
         退出frame
         :return:
         """
+        log.info("回到上一个frame")
         self.save_data(case_name)
         self.driver.switch_to.default_content()
 
@@ -67,13 +86,14 @@ class BasePage(AllureMethod):
         执行JS脚本
         :return:
         """
+        log.info("执行js")
         self.save_data(case_name)
         self.driver.execute_script("arguments[0].scrollIntoView();", target)
 
     # def get_error_text(self, loc):
     #     return self.locator_element(self.error_text_loc).text
 
-    def save_screenshot(self):
+    def screenshot(self):
         """
         截图
         :return:
@@ -93,7 +113,7 @@ class BasePage(AllureMethod):
         保存图片到allure报告：后续可以遇到失败截图
         :return:
         """
-        file_path = self.save_screenshot()
+        file_path = self.screenshot()
         with open(file_path, 'rb') as f:
             file = f.read()
             allure.attach(file, "截图", allure.attachment_type.PNG)
